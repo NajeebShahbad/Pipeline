@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 script {
-                    git 'https://github.com/NajeebShahbad/DockerPipeline.git'
+                    git 'https://github.com/NajeebShahbad/Pipeline.git'
                 }
             }
         }
